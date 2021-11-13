@@ -13,4 +13,4 @@ git push -u origin master
 # Add this script to the /usr/local/bin folder or create a symlink
 
 # sudo ln -s ~/path-to-script/git_init.sh /usr/local/bin/gitinit.sh
-# and then use it anywhere like `gitinit "Adding commit script to github"
+# and then use it anywhere like `gitinit.sh`
