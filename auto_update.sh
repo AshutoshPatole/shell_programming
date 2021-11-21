@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+E_NONROOT=87
+
 if [[ "$(whoami)" != "root" ]]; then
   #statements
   echo "You have to run this script with root privileages"
-  exit 999
+  exit $E_NONROOT
 fi
 
 TEMP_FILE=$(mktemp)

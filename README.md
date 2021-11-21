@@ -14,4 +14,3 @@ $ chmod 744 *.sh
 ```
 
 P.S: I don't know why I thought of creating a script for this 😅
-Git Init 

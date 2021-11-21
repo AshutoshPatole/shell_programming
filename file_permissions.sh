@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+E_WRONGARG=85
+
 function usage() {
   cat <<- EOF
 usage : ./file_permission fileName
@@ -9,7 +11,7 @@ EOF
 
 if [[ ! "$#" == 1 ]]; then
   usage
-  exit 1
+  exit $E_WRONGARG
 fi
 
 if [[ ! -f "$1" ]]; then
